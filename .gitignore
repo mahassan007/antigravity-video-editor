@@ -1,0 +1,10 @@
+/inspiration/*
+!/inspiration/README.md
+!/inspiration/BRIEF.template.md
+/b-roll/*
+!/b-roll/README.md
+/outputs/*
+!/outputs/README.md
+.env
+.env.*
+__pycache__/
