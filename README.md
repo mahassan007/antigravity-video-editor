@@ -10,7 +10,7 @@ Clone this repository, then open the cloned folder as an Antigravity workspace. 
 
 Paste this into Antigravity:
 
-> Read README.md and use the video-editor workspace skill. Check Git, Python, FFmpeg and FFprobe as applicable, and check for a local Whisper CLI. Tell me exactly where to put my raw recording, reference video and B-roll. Show me where to customize the editing rulebook and brand sheet.
+> Install and set up the video-editor workspace skill. Follow its SETUP.md to install and verify all missing compatible dependencies. Show me the full workspace paths, then wait for my footage.
 
 Install Python 3 and an FFmpeg build with FFprobe, H.264 encoding and the subtitles filter. For local transcription, install OpenAI Whisper in your Python environment with `python -m pip install openai-whisper`, or supply an SRT you already have. Use a vision-capable Antigravity session that can inspect extracted screenshots. If image inspection is unavailable, provide timestamped style notes or attach screenshots to the agent chat.
 
